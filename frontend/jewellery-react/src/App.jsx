@@ -28,7 +28,7 @@ import banner_12 from './Pages/assets/rings_banner.jpg'
 
 import banner_13 from './Pages/assets/chains_banner.jpg'
 
-export const backend_url = 'http://localhost:5039';
+export const backend_url = 'https://tanishq-clone-backend.onrender.com';
 export const currency = '₹';
 
 
