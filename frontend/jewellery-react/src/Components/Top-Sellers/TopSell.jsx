@@ -12,7 +12,7 @@ const Topsell = (props) => {
     const sliderRef = useRef(null);
 
     const fetchInfo = async () => { 
-        const response = await fetch('http://localhost:5039/allproducts');
+        const response = await fetch('https://tanishq-clone-backend.onrender.com/allproducts');
         const data = await response.json();
         setAllProducts(data);
     };
