@@ -1,0 +1,90 @@
+.Card {
+    
+    
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+    border-radius: 2px;
+    
+    border: .8px solid #e1e1e1;
+     /* Ensures item width adjusts with slider */
+    max-width: 300px; /* Adjust as needed */
+    margin-bottom: 20px;
+    margin: 10px ,auto;
+    border-radius: 5px;
+    /* Add other styles to ensure responsiveness */
+   
+}
+
+.CardNimg {
+    background: #f2f2f259; /* Add a background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 177px;
+    height: 177px;
+    
+    
+}
+
+.Card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: none;
+    
+    mix-blend-mode: multiply; /* Apply mix-blend-mode directly to the img element */
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.Card p {
+    margin: 20px 10px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    
+    color: #832729;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dog{
+    font-size: small;
+}
+.exp{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.arr{
+    margin-left: 6px;
+}
+.txt{
+    transition: all 0.5s;
+    font-family: "Nunito Sans", sans-serif;
+}
+.sym{
+    transition: all 0.5s;
+    font-family: "Nunito Sans", sans-serif;
+}
+.exp:hover .txt{
+    margin-left: -80px;
+    transition: all 0.5s;
+    color: #832729;
+}
+.exp:hover .sym{
+    margin-right: -100px;
+    transition: all 0.5s;
+    color: #832729;
+}
+

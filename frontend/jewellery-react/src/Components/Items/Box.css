@@ -1,0 +1,87 @@
+.box {
+    width: 97%; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 2px;
+    height: auto;
+    border: .8px solid #e1e1e1;
+    
+    margin: 0 auto;
+    
+   text-decoration: none;
+}
+.link {
+    text-decoration: none; /* Remove underline from Link */
+    color: inherit; /* Use inherited color for text */
+}
+.boxNimg{
+    text-decoration: none;
+    background: #f2f2f259; /* Add a background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0 auto;
+    
+    
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: none;
+    border-radius: 2px;
+    mix-blend-mode: multiply; /* Apply mix-blend-mode directly to the img element */
+}
+
+.box p {
+    margin: 20px 10px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #832729;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.textare1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ex1{
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -100px;
+}
+.do1{
+    transition: all .3s;
+    font-family: "Nunito Sans", sans-serif;
+}
+.box:hover .do1{
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: -580px;   
+    transition: all .3s;
+    color: #832729;
+    
+}
+.box:hover p{
+    color: transparent; 
+}
+.box p{
+    font-weight: 700;
+}
+
+

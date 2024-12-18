@@ -1,0 +1,68 @@
+.diamondSell {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+    margin-top: 0px;
+    
+    
+}
+.dialaouge{
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.dialaouge p{
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+.diamondSell h {
+    color: #832729;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: .0313rem;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: .0313rem;
+    /* font-weight: 600; */
+}
+.divider{
+   
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider-img{
+    width: 85%;
+}
+
+.diamondSell hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.top-item-slider {
+    border-radius: 3px;
+    width: 85%;
+    
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    
+}
+.slick-prev::before,
+.slick-next::before {
+    color: black;
+}

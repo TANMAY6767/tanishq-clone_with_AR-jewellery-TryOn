@@ -1,0 +1,61 @@
+.Parts {
+    width: 335px; 
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    height: 480px;
+    border: .8px solid #e1e1e1;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .1875rem .375rem rgba(0, 0, 0, .160784);
+}
+
+.PartsNimg {
+    background: transparent; /* Add a background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px; /* Adjust width as needed */
+    height: 340px; /* Adjust height as needed */
+    margin: 0 auto;
+}
+
+.Parts img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: none;
+    border-radius: 2px;
+}
+
+.Parts-prices {
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.Parts-prices p {
+    margin: 10px 0;
+    font-family: "Nunito Sans", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: left; /* Align text to the left */
+}
+
+.name {
+    width: 100%;
+}
+
+.item-prices-new {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: left; /* Align text to the left */
+}

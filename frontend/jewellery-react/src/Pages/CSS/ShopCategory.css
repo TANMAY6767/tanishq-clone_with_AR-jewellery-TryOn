@@ -1,0 +1,49 @@
+.image{
+    width: 100%;
+}
+.boy{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boy2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    
+}
+.CateContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:start ;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.CateContainer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:start ;
+   
+    gap: 50px;
+    
+}
+.shop-category{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.shop-category2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}

@@ -1,0 +1,7 @@
+.breadcrum{
+    font: normal normal normal 1.125rem / 1.5rem "nunito_sansregular";
+    font-size: 13px;
+    font-weight: 500;
+    gap: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

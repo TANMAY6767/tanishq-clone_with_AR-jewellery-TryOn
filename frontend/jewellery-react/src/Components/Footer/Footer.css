@@ -1,0 +1,124 @@
+.footbase{
+background-color: #f2e9e9;
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-top: 200px;
+}
+.sub-footbase{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.north-south{
+    display: flex;
+    flex-direction: row;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+width: 25%;
+
+align-items: start;
+
+    height: 400px;
+}
+hr{
+    color: #000;
+    width: 100%;
+    
+}
+.text{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font: normal normal normal 1.125rem / 1.5rem "nunito_sansregular";
+    letter-spacing: 0;
+    color: #000;
+}
+.top{
+    text-align: left;
+    font: normal normal bold 1.25rem / 1.6875rem "nunito_sansbold";
+    letter-spacing: 0;
+   
+    opacity: 1;
+    margin-bottom: 3.125rem;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+width: 25%;
+
+align-items: start;
+height: 400px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+width: 25%;
+
+align-items: start;
+height: 400px;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+width: 25%;
+justify-content: space-between;
+align-items: center;
+height: 400px;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+.qr{
+    width: 200px;
+    height: 200px;
+}
+.qrman{
+    display: flex;
+    flex-direction: column;
+
+justify-content: space-around;
+align-items: center;
+height: 80%;
+}
+.mention{
+width: 100%;
+background-color: #f2e9e9;
+height: 50px;
+}
+.platform{
+    display: flex;
+    flex-direction: row;
+
+height: 20%;
+
+align-items: center;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+justify-content: start;
+align-items: center;
+
+height: 10%;
+}
+.play , .apple{
+    width: 136px;
+    height: 40px;
+}
+.follow div{
+    margin-left: 10px;
+}
