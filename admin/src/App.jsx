@@ -4,7 +4,7 @@ import './App.css'
 import Admin from './Pages/Admin/Admin.jsx'
 
 
-export const backend_url = 'http://localhost:5039';
+export const backend_url = 'https://tanishq-clone-backend.onrender.com';
 export const currency = '₹';
 function App() {
   const [count, setCount] = useState(0)
