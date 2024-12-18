@@ -17,7 +17,7 @@ function LoginSignup() {
   const login =async ()=>{
       console.log("Login Function Executed",formData);
       let responseData;
-    await fetch('http://localhost:5039/login',{
+    await fetch('https://tanishq-clone-backend.onrender.com/login',{
       method:'POST',
       headers:{
         Accept:'application/form-data',
@@ -37,7 +37,7 @@ function LoginSignup() {
   const signup =async ()=>{
     console.log("Signup Function Executed",formData);
     let responseData;
-    await fetch('http://localhost:5039/signup',{
+    await fetch('https://tanishq-clone-backend.onrender.com/signup',{
       method:'POST',
       headers:{
         Accept:'application/form-data',
