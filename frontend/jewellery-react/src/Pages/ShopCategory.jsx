@@ -7,7 +7,7 @@ const ShopCategory = (props) => {
   const [allproducts, setAllProducts] = useState([]);
 
   const fetchInfo = () => {
-    fetch('http://localhost:5039/allproducts')
+    fetch('https://tanishq-clone-backend.onrender.com/allproducts')
       .then((res) => res.json())
       .then((data) => {
         // Sort the products by 'date' field in descending order (newest first)
