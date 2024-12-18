@@ -18,7 +18,7 @@ const Alljewel=(props)=> {
     };
 
     const fetchInfo = () => { 
-      fetch('http://localhost:5039/allproducts') 
+      fetch('https://tanishq-clone-backend.onrender.com/allproducts') 
               .then((res) => res.json()) 
               .then((data) => setAllProducts(data))
       }
